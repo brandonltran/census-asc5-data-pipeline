@@ -15,7 +15,7 @@ I will then write SQL queries in `Amazon Athena` to organize the data and create
 
 Lastly, I will connect `Amazon Quicksight` to visualize the data.
 
-![Census ACS5 Pipeline](census-acs5-data-pipeline.jpg)
+![Census ACS5 Pipeline](img/census-acs5-data-pipeline.jpg)
 
 For a comprehensive walkthrough of my process, refer to the detailed report located here: [report.md](report.md)
 
