@@ -353,7 +353,7 @@ The data is now succesfully stored in Amazon S3.
 
 Let's recap and take a look at the current schemas for the extracted datasets.
 
-![Census API Schema](census-api-schema.jpg)
+![Census API Schema](img/census-api-schema.jpg)
 
 I will be leveraging SQL and Amazon Athena to organize the data into materialized views based on the following dimensional star schema:
 
@@ -479,7 +479,7 @@ FROM censusacs5data.graduation_rates;
 
 The data is now organized into meausures and dimensions.
 
-![Athena View Schema](athena-view-schema.jpg)
+![Athena View Schema](img/athena-view-schema.jpg)
 
 ### Step 3: Joining Data in Fact of Measurement View
 
@@ -516,7 +516,7 @@ Let's do a basic exploratory analysis to examine the correlation between `Averag
 
 ### Average Graduation Rate and Average Median Household Income by State
 
-![Average of Graduation Rate and Average of Median Household Income by State](median-household-income_vs_graduation-rates.jpg)
+![Average of Graduation Rate and Average of Median Household Income by State](img/median-household-income_vs_graduation-rates.jpg)
 
 As expected, the data from the survey illustrates a strong correlation between graduation rates and median household incomes.
 
